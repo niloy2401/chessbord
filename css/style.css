@@ -1,0 +1,30 @@
+.tonu{
+  height: 100px;
+  width: 800px;
+  border: 1px solid black;
+  background-color: grey;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 80px;
+  text-align: center;
+}
+.nill{
+  height: 100px;
+  width: 800px;
+border: 1px solid black;
+background-color: gray;
+margin: 0 auto;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row-reverse;
+font-size: 80px;
+text-align: center;
+}
+.one{
+  height: 100px;
+  width: 100px;
+}
+.one:nth-child(even){
+  background: white;
+}
